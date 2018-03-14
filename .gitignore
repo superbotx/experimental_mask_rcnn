@@ -5,3 +5,6 @@ mask_rcnn_coco.h5
 
 custom_dataset/
 virenv/
+
+.DS_Store
+logs
