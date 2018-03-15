@@ -4,6 +4,7 @@ mask_rcnn_coco.h5
 .idea/
 
 custom_dataset/
+toy_dataset/
 virenv/
 
 .DS_Store
