@@ -1,15 +1,16 @@
-def compose_image(images, masks, background):
+def compose_image(images, masks, background, background_mask):
     """
     description:
     this function takes images and corresponding masks and one background to
     generate augmented traning dataset image.
 
     rotate, translate, resize
-    
+
     input:
     images: a list of image arrays
     masks: a list of mask arrays
     background: a image array of background
+    background_mask: availibity for placing objects
 
     output:
     image: a composed image
